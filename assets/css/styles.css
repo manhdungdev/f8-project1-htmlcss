@@ -623,7 +623,7 @@ a {
 
 .footer .social {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     margin-top: 40px;
 }
 
@@ -634,6 +634,7 @@ a {
     width: 28px;
     height: 28px;
     border-radius: 4px;
+    background: #F9F9F9;
 }
 
 .footer .social-item:hover {
