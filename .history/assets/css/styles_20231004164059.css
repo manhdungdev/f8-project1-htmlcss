@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0F1B4C;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+
+    min-width: 98px;
+    border-radius: 8px;
+    padding: 18px 16px;
+
+    background: var(--primary-color);
+
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Header */
+.header {
+    height: 100vh;
+    background-color: #E6F0FF;
+}
+
+/* Nav bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 38px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar li a {
+
+    padding: 8px 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #4f5361;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+.navbar .action {
+    margin-left: auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.navbar .action-register {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.navbar .action-btn {
+    padding: 13px 16px;
+    margin-left: 18px;
+}
+
+/* Hero info */
+.hero{
+    margin-top: 138px;
+    width: 50%;
+}
+.hero .sub-title {
+    color: #687690;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+
+.hero .title{    
+    margin-top: 8px;
+    line-height: 1.5;
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #000336;
+}
+
+.hero .desc{
+    margin-top: 30px;
+}

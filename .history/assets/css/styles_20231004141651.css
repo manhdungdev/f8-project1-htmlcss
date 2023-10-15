@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+}
+
+/* Common */
+a{
+    text-decoration: none;
+}
+.content{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100vh;
+    background-color: #E6F0FF;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar .nav-action{
+    margin-left: auto;
+}

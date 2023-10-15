@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.box {
+    display: inline-block;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-ri
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
