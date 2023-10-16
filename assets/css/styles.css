@@ -113,6 +113,8 @@ a {
 /* Hero info */
 .hero {
     position: relative;
+    display: flex;
+    align-items: center;
     height: calc(100vh - 90px);
     background-color: #E6F0FF;
     padding-top: 138px;
