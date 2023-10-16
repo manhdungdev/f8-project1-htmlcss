@@ -6,6 +6,10 @@
     --primary-color: #0F1B4C;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -57,7 +61,8 @@ a {
 .header {
     background-color: #E6F0FF;
     position: sticky;
-    top: -26px;
+    /* top: 0; */
+    top: 0px;
     padding-top: 26px;
     z-index: 1;
 }
