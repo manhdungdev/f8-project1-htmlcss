@@ -1,0 +1,94 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    .menu-bar {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .show-on-mobile {
+        display: none;
+    }
+
+}
+
+/* Tablet and mobile */
+@media screen and (max-width: 991.98px) {
+    .navbar {
+        position: relative;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        inset: 0;
+        margin: auto;
+    }
+
+    .menu-bar {
+        width: 24px;
+        color: #666;
+    }
+
+    .menu__overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: ease 0.25s;
+    }
+
+    .menu__drawer {
+        position: fixed;
+        inset: 0 40% 0 0;
+        padding: 40px;
+        background: #fff;
+        translate: -100% 0;
+        transition: ease 0.25s;
+        z-index: 2;
+    }
+
+    .menu-checkbox:checked+.menu__overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu-checkbox:checked~.menu__drawer {
+        translate: 0 0;
+    }
+
+    .menu__drawer ul a {
+        display: block;
+        padding: 20px 0;
+        color: #333;
+        font-weight: 600;
+    }
+
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .show-on-mobile {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+    .menu__drawer {
+        inset: 0 25% 0 0;
+    }
+
+    .action {
+        display: none;
+    }
+
+}

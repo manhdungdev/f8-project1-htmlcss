@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -61,8 +63,7 @@ a {
 .header {
     background-color: #E6F0FF;
     position: sticky;
-    /* top: 0; */
-    top: 0px;
+    top: -26px;
     padding-top: 26px;
     z-index: 1;
 }
