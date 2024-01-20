@@ -603,11 +603,10 @@ a {
 
 .footer .row {
     display: flex;
-    gap: 185px;
 }
 
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .title {

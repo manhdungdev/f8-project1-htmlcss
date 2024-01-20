@@ -51,6 +51,13 @@
                     </svg>
                 </label>
 
+                <!-- <a href="#menu" id="menu-check">
+                    <svg class="menu-bar" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </a> -->
+
                 <!-- Features -->
                 <ul id="pc-nav">
                     <li><a href="#">HOME</a></li>
@@ -72,7 +79,7 @@
     </header>
 
     <!-- Overlay on tablet and mobile -->
-    <div class="menu">
+    <div class="menu" id="menu">
         <input type="checkbox" name="menu-checkbox" id="menu-checkbox" class="menu-checkbox" hidden>
         <label for="menu-checkbox" class="menu__overlay"></label>
         <div class="menu__drawer">
@@ -250,9 +257,9 @@
         <!-- Stats -->
         <div id="resource" class="stats">
             <div class="content">
-                <div class="row">
+                <div class="row content__row">
                     <div class="stats-img-block">
-                        <img src="assets/img/stat_img.jpg" alt="Buu_ghost" class="stats-img">
+                        <p><img src="assets/img/stat_img.jpg" alt="Buu_ghost" class="stats-img"></p>
                         <div class="stats-trend">
                             <div class="row">
                                 <strong class="value">40,000+</strong>
@@ -416,7 +423,7 @@
 
             <!-- Footer copyright -->
             <div class="row row-bottom">
-                <img src="assets/img/logo.svg" alt="Besnik." class="footer-logo">
+                <a href="#"><img src="assets/img/logo.svg" alt="Besnik." class="footer-logo"></a>
                 <p class="copyright">Copyright 2020.com, All rights reserved.</p>
             </div>
         </div>
@@ -428,7 +435,7 @@
         otherNav = document.querySelector("#other-nav");
 
         otherNav.innerHTML = pcNav.innerHTML;
-    
+
     </script>
 </body>
 
