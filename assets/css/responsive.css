@@ -71,6 +71,43 @@
         font-weight: 600;
     }
 
+    .hero {
+        padding-top: 0;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero .desc {
+        width: 80%;
+        margin: 30px auto auto;
+    }
+
+    .hero .infor {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .clients .images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .guilde-item {
+        margin: 0;
+        flex: 1;
+    }
+
+    .featured-list {
+        flex-wrap: wrap;
+    }
+
+    .featured-list .item{
+        flex: 0;
+        width: calc(50% - 15px);
+    }
 
 }
 
